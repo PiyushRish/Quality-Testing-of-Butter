@@ -387,7 +387,7 @@ function stepInstruction(step) {
       instBox.innerText = "Click on the desiccator lid to open it.";
       break;
     case 12:
-      instBox.innerText = <pre> hi hello</pre>;
+      instBox.innerText = ""
       break;
     case 13:
       instBox.innerText = "Experiment completed successfully!";
