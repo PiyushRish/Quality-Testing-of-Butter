@@ -1,0 +1,160 @@
+/* Reset and body styles */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: sans-serif;
+  background: url("../Images/bgImage.png") no-repeat center center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.instrument {
+  position: absolute;
+  height: auto;
+  width: auto;
+  transition: transform 1s ease;
+}
+
+.instrument img {
+  height: auto;
+  cursor: pointer;
+  position: relative;
+  transition: transform 1s ease;
+  z-index: 1;
+}
+#gooch-crucible {
+  position: absolute;
+  bottom: 18vh;       
+  left: 4vw;         
+  z-index: 2;
+  
+}
+
+#gooch{
+  width: 8vw;
+}
+
+#celite-container{
+  position: absolute;
+  bottom: 19vh;       
+  left: 14vw;         
+  z-index: 2;
+}
+#celite{
+  width: 8vw;
+}
+
+#hotOven{
+  position: absolute;
+  bottom: 10vh;       
+  left: 78vw;         
+  z-index: 2;
+
+}
+#oven{
+  width: 17vw;
+}
+#weighing-machine{
+  position: absolute;
+  bottom: 1vh;       
+  left: 4vw;         
+  z-index: 2;
+
+}
+#weighing-machine-w{
+  width: 17vw;
+
+}
+#dessicator{
+  position: absolute;
+  bottom: 10vh;       
+  left: 66vw;         
+  z-index: 2;
+
+}
+#dessicator-w{
+  width: 10vw;
+
+}
+#porcelain-dish{
+  position: absolute;
+  bottom: 4vh;       
+  left: 24vw;         
+  z-index: 2;
+
+}
+#dish{
+  width: 10vw;
+
+}
+#petroleum-ether{
+  position: absolute;
+  bottom: 19vh;       
+  left: 58vw;         
+  z-index: 2;
+
+}
+#pet-ether{
+  width: 7vw;
+
+}
+#funnel-stand{
+  position: absolute;
+  bottom: 18vh;       
+  left: 25vw;         
+  z-index: 2;
+
+}
+#funnel-stand-w{
+  width: 10vw;
+
+}
+
+#funnel{
+  position: absolute;
+  bottom: 40vh;       
+  left: 25.5vw;         
+  z-index: 1;
+
+}
+#funnel-w{
+  width: 5vw;
+
+}
+#spatula{
+  position: absolute;
+  bottom: 5vh;       
+  left: 64vw;         
+  z-index: 1;
+
+}
+#spatula-w{
+  width: 14vw;
+
+}
+#beaker{
+  position: absolute;
+  bottom: 22vh;       
+  left: 26vw;         
+  z-index: 1;
+
+}
+#beaker-w{
+  width: 4vw;
+
+}
+#celite-inside-crucible {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  background: radial-gradient(circle, #dcdcdc, #aaa);
+  border-radius: 50%;
+  bottom: 18%;  /* adjust position based on your crucible image */
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  z-index: 3;
+}
