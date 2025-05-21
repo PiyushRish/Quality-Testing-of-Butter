@@ -56,33 +56,71 @@ body {
 }
 
 #dish {
-  width: 8.5vw;
-  transition: transform 1s ease-in-out;
-}
-
-#dessicator {
-  bottom: 14vh;
-  left: 65vw;
-  transition: transform 1s ease-in-out;
-  z-index: 500;
-}
-
-#dessicator-d1 {
   width: 7vw;
   transition: transform 1s ease-in-out;
 }
 
-#dessicator-lid {
+#pipette{
+  bottom: -7vh;
+  left: 50vw;
+
+  
+}
+#pipette-w{
+  width: 3.5vw;
+  height: 33vh;
+  transform: rotate(-90deg);
+}
+
+/* Liquid Containers */
+#liquid-container,
+#liquid-container-2 {
+  position: relative;
+  bottom: -60vh;
+  transition: transform 1s ease-in-out;
+  z-index: 500;
+}
+
+/* Position override for each container */
+#liquid-container {
+  left: 65vw;
+}
+
+#liquid-container-2 {
+  left: 57vw; /* slightly right of container 1 */
+  bottom: -15vh;
+}
+
+/* Container Bottles */
+#liquid-container-d1,
+#liquid-container-d2 {
+  width: 7vw;
+  transition: transform 1s ease-in-out;
+  z-index: 500;
+}
+
+/* Internal Liquids */
+#liquid-acid-d1,
+#liquid-ammonia {
+  width: 7vw;
+  bottom: 14.5vh;
+}
+
+/* Lids for containers */
+#liquid-container-lid,
+#liquid-container-2-lid {
   bottom: 9vh;
-  left: 60vw;
   transition: transform 1s ease-in-out;
   z-index: 501;
 }
 
-#dessicator-d1-lid {
+/* Lid Images */
+#liquid-container-d1-lid,
+#liquid-container-d2-lid {
   width: 6vw;
   transition: transform 1s ease-in-out;
 }
+
 
 #wheighing-machine {
   bottom: 2.3vh;
@@ -150,6 +188,7 @@ body {
 #ovendoor-w.open {
   transform: rotateY(-80deg); /* Door opens to the side */
 }
+
 
 
 
